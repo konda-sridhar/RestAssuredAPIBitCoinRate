@@ -48,7 +48,7 @@ POM file full path: /RestAssuredAPIBitCoinRate/pom.xml
 ```
 
 
-***Folder3:*** src
+***Folder3: src
 ```
 /RestAssuredAPIBitCoinRate/src/output/report.html
 ```
