@@ -1,0 +1,6 @@
+
+Scenario: Get Bitcoin value in GBP                                 # src/test/java/features/checkRateValidation.feature:27
+  Given the Coinbase API endpoint for GBP value is available       # stepDefinitions.CheckBitCoinRate.the_coinbase_api_endpoint_for_gbp_value_is_available()
+  When I make a Get request for the Bitcoin value in GBP           # stepDefinitions.CheckBitCoinRate.i_make_a_get_request_for_the_bitcoin_value_in_gbp()
+  Then the response status code should be 200                      # stepDefinitions.CheckBitCoinRate.the_response_status_code_should_be(java.lang.Integer)
+  And the Bitcoin value should be fetched successfully and printed # stepDefinitions.CheckBitCoinRate.the_bitcoin_value_should_be_fetched_successfully_and_printed()
